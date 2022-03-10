@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Metaetiquetas -->
+    <meta name="description"
+        content="Mediante un servicio integral e innovador que permite el monitoreo y la comunicación fluida bidireccional entre el atleta y el entrenador, ofrecemos soluciones en sistemas de medición y control de rendimiento deportivo.">
+    <meta name="keywords"
+        content="medicion deportiva, entrenamiento, clubes, fulbol, rugby, jokey, jugadores, entrenamiento, evaluacion deportiva, rendimiento deportivo, chronojump">
+    <meta name="theme-color" content="#317EFB" />
+
+    <!-- Protocolo open graph -->
+    <meta property="og:title" content="visionevaluaciones - monitoreo bidireccional del atleta" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://visionevaluaciones/" />
+    <meta property="og:locale" content="es_LA" />
+    <meta property="og:image" content="https://visionevaluaciones.com/img/visionevaluaciones.jpg" />
+    <meta property="og:author"
+        content="Equipo Coder: Eliana Ramos (Diseñadora UX/UI) - Fabián Martínez (Desarrollador Web) - Marcelo Luis Moreno (Desarrollador Web)" />
+    <meta property="og:description" content="Monitoreo bidireccional del atleta" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/gidole-regular" type="text/css" />
+
+    <!-- inconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- CDN SOURCES Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicons -->
+    <link href="./img/favicon.png" rel="icon">
+    <link href="./img/apple-touch-icon.png" rel="apple-touch-icon">
+    <title>Vision Evaluaciones</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <section id="inicio">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark fixed-top fondoNav justify-content-end">
+
+            <!-- Navbar content -->
+            <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a href="#inicio">
+                        <img src="./img/logoVision.png" class="logo" alt="Imagen logo Vision Evaluaciones">
+                    </a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                        <ul class="  navbar-nav">
+                            <li class="nav-item header-links">
+                                <a class=" nav-link active " aria-current="page"
+                                    href="#">Inicio</a>
+                            </li>
+                            <li class=" nav-item header-links">
+                                <a  class="nav-link " href="#sobreNosotros">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-item header-links">
+                                <a class="nav-link" href="#servicios">Servicios</a>
+                            </li>
+                            <li class="nav-item header-links">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="  nav-link" href="#"><svg class="social-logo"  width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path  d="M31.7555 9.20931C31.7375 7.85866 31.4846 6.52143 31.0082 5.25745C30.5951 4.19128 29.9642 3.22302 29.1557 2.41451C28.3472 1.606 27.3789 0.975038 26.3127 0.561927C25.065 0.0935473 23.7468 -0.159714 22.4144 -0.187073C20.6988 -0.263756 20.1549 -0.285156 15.8 -0.285156C11.4451 -0.285156 10.8869 -0.285156 9.18381 -0.187073C7.85194 -0.159513 6.5344 0.0937452 5.28723 0.561927C4.2209 0.97475 3.25248 1.60561 2.44394 2.41416C1.6354 3.2227 1.00453 4.19112 0.591712 5.25745C0.122394 6.50423 -0.130318 7.82208 -0.155504 9.15403C-0.232188 10.8714 -0.255371 11.4153 -0.255371 15.7702C-0.255371 20.1251 -0.255371 20.6815 -0.155504 22.3864C-0.128754 23.7203 0.122695 25.0364 0.591712 26.2865C1.00523 27.3525 1.63656 28.3205 2.44537 29.1287C3.25419 29.9369 4.22269 30.5675 5.28901 30.9803C6.53277 31.4675 7.85054 31.7388 9.1856 31.7827C10.9029 31.8594 11.4469 31.8826 15.8018 31.8826C20.1567 31.8826 20.7148 31.8826 22.4179 31.7827C23.7504 31.7565 25.0686 31.5038 26.3163 31.0355C27.3822 30.6219 28.3502 29.9908 29.1586 29.1824C29.9671 28.3739 30.5982 27.4059 31.0118 26.34C31.4808 25.0917 31.7323 23.7756 31.759 22.4399C31.8357 20.7243 31.8589 20.1804 31.8589 15.8237C31.8553 11.4688 31.8553 10.916 31.7555 9.20931ZM15.7893 24.0056C11.2346 24.0056 7.54493 20.3159 7.54493 15.7613C7.54493 11.2066 11.2346 7.51693 15.7893 7.51693C17.9758 7.51693 20.0728 8.38553 21.6189 9.93164C23.165 11.4778 24.0336 13.5747 24.0336 15.7613C24.0336 17.9478 23.165 20.0448 21.6189 21.5909C20.0728 23.137 17.9758 24.0056 15.7893 24.0056ZM24.3618 9.13441C24.1092 9.13465 23.8591 9.08508 23.6258 8.98855C23.3925 8.89203 23.1804 8.75043 23.0019 8.57187C22.8233 8.39331 22.6817 8.18129 22.5852 7.94794C22.4887 7.71459 22.4391 7.4645 22.4393 7.21198C22.4393 6.95964 22.489 6.70977 22.5856 6.47664C22.6822 6.24351 22.8237 6.03167 23.0021 5.85324C23.1806 5.67481 23.3924 5.53327 23.6255 5.43671C23.8587 5.34014 24.1085 5.29044 24.3609 5.29044C24.6132 5.29044 24.8631 5.34014 25.0962 5.43671C25.3293 5.53327 25.5412 5.67481 25.7196 5.85324C25.898 6.03167 26.0396 6.24351 26.1361 6.47664C26.2327 6.70977 26.2824 6.95964 26.2824 7.21198C26.2824 8.27485 25.4228 9.13441 24.3618 9.13441Z"  />
+                                    </svg></a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#"><svg class="social-logo" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.0384 -0.335938H0.961501C0.238184 -0.335938 -0.346191 0.233828 -0.346191 0.939063V30.2641C-0.346191 30.9693 0.238184 31.5391 0.961501 31.5391H31.0384C31.7617 31.5391 32.3461 30.9693 32.3461 30.2641V0.939063C32.3461 0.233828 31.7617 -0.335938 31.0384 -0.335938ZM27.2625 8.96758H24.6512C22.6038 8.96758 22.2074 9.91586 22.2074 11.3104V14.3823H27.0949L26.4574 19.1915H22.2074V31.5391H17.1115V19.1955H12.8492V14.3823H17.1115V10.8363C17.1115 6.72039 19.6901 4.47719 23.4579 4.47719C25.2641 4.47719 26.8129 4.60867 27.2665 4.66844V8.96758H27.2625Z" />
+                                    </svg>
+                                    </a>
+                            </li>
+
+                            <li class="nav-item social-logo">
+                                <a class="nav-link" href="#"><svg class="social-logo" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_151_3937)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M-0.1333 2.56292C-0.1333 1.84797 0.150714 1.1623 0.656262 0.656753C1.16181 0.151205 1.84748 -0.132809 2.56243 -0.132809H29.4347C29.789 -0.133388 30.14 -0.0640766 30.4674 0.0711556C30.7949 0.206388 31.0925 0.404885 31.3432 0.655284C31.5939 0.905683 31.7927 1.20307 31.9283 1.53041C32.0639 1.85775 32.1336 2.20861 32.1334 2.56292V29.4352C32.1338 29.7896 32.0643 30.1405 31.9289 30.468C31.7935 30.7955 31.5948 31.0931 31.3443 31.3438C31.0938 31.5944 30.7963 31.7932 30.4689 31.9288C30.1415 32.0644 29.7905 32.1341 29.4362 32.1339H2.56243C2.2083 32.1339 1.85764 32.0641 1.53048 31.9285C1.20332 31.793 0.906084 31.5943 0.655743 31.3438C0.405402 31.0933 0.206866 30.796 0.071479 30.4687C-0.063908 30.1415 -0.133493 29.7908 -0.1333 29.4367V2.56292ZM12.6384 12.1696H17.0076V14.3637C17.6383 13.1024 19.2516 11.9672 21.676 11.9672C26.3239 11.9672 27.4254 14.4796 27.4254 19.0893V27.6283H22.7218V20.1395C22.7218 17.5141 22.0911 16.0328 20.4895 16.0328C18.2675 16.0328 17.3435 17.63 17.3435 20.1395V27.6283H12.6384V12.1696ZM4.57177 27.4273H9.27683V11.9672H4.57177V27.4259V27.4273ZM9.95003 6.92479C9.9589 7.32764 9.88722 7.72821 9.73918 8.10299C9.59115 8.47776 9.36975 8.81919 9.08797 9.10724C8.8062 9.39529 8.46972 9.62415 8.0983 9.7804C7.72688 9.93665 7.32798 10.0171 6.92503 10.0171C6.52208 10.0171 6.12319 9.93665 5.75177 9.7804C5.38034 9.62415 5.04387 9.39529 4.76209 9.10724C4.48032 8.81919 4.25892 8.47776 4.11088 8.10299C3.96285 7.72821 3.89116 7.32764 3.90003 6.92479C3.91745 6.13404 4.2438 5.38155 4.8092 4.82846C5.3746 4.27538 6.13409 3.96567 6.92503 3.96567C7.71597 3.96567 8.47547 4.27538 9.04087 4.82846C9.60627 5.38155 9.93262 6.13404 9.95003 6.92479Z" />
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_151_3937">
+                                    <rect width="32" height="32" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                                    </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <br><br><br>
+        </nav>
+        <!-- Final Navbar -->
+
+        <a href="https://wa.me/5493493668635?text=Me%20gustaría%20saber%20el%20precio%20de%20" class="whatsapp"
+            target="_blank"> <i class="bi bi-whatsapp"></i></a>
+
+        <!-- Carousel  -->
+        <div class="head">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/caruosel01.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/caruosel02.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/caruosel03.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/caruosel01.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/caruosel04.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="contenedor">
+                <br><br>
+                <h5>
+                    Desde Visión creemos <b>importante adaptar el entrenamiento de profesionales
+                    <br>
+                    del deporte a las innovaciones tecnológicas </b> que surgen en el mercado.
+                </h5>
+            </div>
+            <div class="container p-1">
+                <div>
+                    <div class="align-items-center p-5">
+                        <div class="rounded-3 cardHeader p-5">
+                            <div class="text-black text-center">
+                                <br>
+                                <ul class="list-unstyled">
+                                    <li>Para esto, contamos con equipos
+                                        de última tecnología, </li>
+                                    <li>validados internacionalmente, que ayudarán al </li>
+                                    <li>seguimiento y mejora en
+                                        el entrenamiento.</li>
+                                </ul>
+                                <br>
+                                <p>________________</p>
+                                <br>
+                                <a href="https://chronojump.org/es/quienes-somos/">
+                                    <img src="./img/chronojump.png" alt="Imagen logo chronojump España">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container p-1">
+                <div
+                    class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3 mb-3 text-center p-3">
+
+                    <div class="col">
+                        <div class="rounded-3 cardHeader nosotros">
+                            <div class="text-black">
+                                <div class="p-5">
+                                    <h4 class="textosVarios">Sobre Nosotros</h4>
+                                </div>
+                                <p class="text-start textosVarios m-3">Ofrecemos soluciones en sistemas
+                                    <br>
+                                    de medición y control de
+                                    <br>
+                                    rendimiento deportivo.
+                                </p>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class=" rounded-3  mb-5 cardHeader servicios">
+                            <div class="text-black">
+                                <div class="p-5">
+                                    <h4 class="textosVarios">Servicios</h4>
+                                </div>
+                                <p class="text-start textosVarios m-3">Medición de rendimiento con
+                                    <br> equipos de la reconocida marca
+                                    <br> CHRONOJUMP.
+                                </p>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class=" rounded-3  mb-5 cardHeader contact">
+                            <div class="text-black">
+                                <div class="p-5">
+                                    <h4 class="textosVarios">Contacto</h4>
+                                </div>
+                                <p class="text-start textosVarios m-3">¿Cómo te podemos ayudar?
+                                    <br>
+                                    Contáctanos y te responderá una
+                                    <br>
+                                    persona del equipo por mail.
+                                </p>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- Fin Header -->
+
+
+    <!-- Seccion Nosotros -->
+    <section id="sobreNosotros">
+        <div class="estasListo">
+            <br><br>
+            <h3>
+                Estás Listo ?
+            </h3>
+            <br><br>
+
+        </div>
+        <div class="fondoNosotros">
+            <div class="tituloNosotros col-12 text-center">
+                <p class="fs-1 p-3">Sobre Nosotros</p>
+            </div>
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-12 col-sm-6">
+                        
+                        <div class="card-body fondoSobreNosotros">
+                            <p class="card-text p-1 m-1 g-1">Mediante un servicio integral e innovador
+                                que permite el monitoreo y la comunicación fluida bidireccional entre el atleta y el
+                                entrenador, ofrecemos soluciones en sistemas de medición y control de rendimiento
+                                deportivo.
+                                <br><br>
+                                Contamos con equipamientos y sistemas de evaluación deportiva que son utilizados por
+                                profesionales a nivel mundial.
+                                Nuestro servicio, personalizado y adaptado a las necesidades de cada cliente, se basa en
+                                la medición de rendimiento con equipos de la reconocida marca CHRONOJUMP.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        
+                        <img src="img\nosotros.png" class="img-fluid w-100 margenFotoNosotros" loading="lazy"
+                            alt="card-horizontal-image">
+                    </div>
+
+                </div>
+            </div>
+
+
+            <br><br><br><br>
+
+
+        </div>
+
+
+    </section>
+
+
+    <!-- Seccion servicios -->
+    <section id="servicios" class="fondoServicios">
+        <div class="tituloServicios col-12 text-center">
+            <h2 class="fs-1 mt-5">Servicios</h2>
+        </div>
+        <div class="container">
+            <div class="row g-1">
+                <div class="col-8 col-sm-4">
+                    <div class="card-body">
+                        <br><br><br><br>
+                        <h4 class="tituloServicio">Fotocélulas</h5>
+                            <br>
+                            <p class="card-text">Tests simples e interválicos, test de agilidad
+                                (20 yard, 505, Illinois, Margaria-Kalamen, Shuttle run, T-Test, ZigZag, test RSA – Aziz,
+                                Balsom, Dawson, Fitzsimons, Gaitanos, Hamilton, RAST, Mujica, Wadley, Wragg).
+                                <br><br>
+                                Resultados: medición de tiempo y distancia.
+                            </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-8">
+                    <br>
+                    <video class="sizeVideo p-5" src="./videos/ChronoJump03.mp4" controls></video>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <br>
+            <div class="row g-1">
+                <div class="col-8 col-sm-4">
+                    <div class="card-body">
+                        <br><br><br><br>
+                        <h4 class="tituloServicio">Encoder lineal y rotatorio</h4>
+                        <br>
+                        <p class="card-text">Con todas sus variables: velocidad, fuerza y
+                            potencia,
+                            propulsivo o no; fase concéntrica y/o excéntrica.
+                            <br></br>
+                            Resultados: evaluación longitudinal del atleta; comparación entre atletas; optimización
+                            del entrenamiento, cálculo de 1rm, carga óptima para el trabajo de la máxima potencia,
+                            análisis de cada milisegundo y milímetro; exportación de imágenes y hojas de cálculo;
+                            capacidad de valoración de las variables cada milisegundo.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-8">
+                    <br>
+                    <video class="sizeVideo p-5" src="./videos/ChronoJump02.mp4" controls></video>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <br>
+            <div class="row g-1">
+                <div class="col-8 col-sm-4">
+                    <div class="card-body">
+                        <br><br><br><br>
+                        <h4 class="tituloServicio">Plataforma de saltos</h4>
+                        <br>
+                        <p class="card-text">Aptas para la realización de los test de Bosco y
+                            test de
+                            Multisaltos de manera práctica y efectiva.
+                            <br><br>
+                            Resultados: medición de altura de salto, tiempo de vuelo, tiempo de contacto,
+                            Stiffness, velocidad inicial, potencia. Perfil del deportistas.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-8">
+                    <br>
+                    <video class="sizeVideo p-5" src="./videos/ChronoJump01.mp4" controls></video>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+
+    </section>
+    <!-- Fin Seccion Servicios -->
+
+
+
+    <!-- Seccion Contacto -->
+    <!-- Seccion Footer -->
+
+    <footer id="contacto">
+
+        <div class="fondoContacto">
+
+            <div class="row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
+                <div class="col text-white container-fluid contactos">
+                    <div class="tituloContacto col-12 text-center">
+                        <h2 class="fs-1 mt-5">Contacto</h2>
+                    </div>
+                    <h4 class="text-center">¿Cómo te podemos ayudar?</h4>
+                    <p class="text-center">Contáctanos y te responderá una persona del equipo por mail</p>
+                    <form class="row g-3 p-3 needs-validation" name="contacto" method="POST" action="enviar.php">
+                        <div class="col-12 text-center">
+                        <label for=" validationCustom01" class="form-label">Nombre</label>
+                            <input type="text" name="nombre" class="form-control" id="validationCustom01"
+                                placeholder="Escribre tu nombre" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="validationCustomUsername" class="form-label">Email</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                <input type="text" name="email" class="form-control" id="validationCustomUsername"
+                                    aria-describedby="inputGroupPrepend" required placeholder="ejemplo@email.com">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="validationCustom05" class="form-label">Consulta lo que necesites</label>
+                            <textarea class="form-control" name="mensaje" id="validationCustom05" style="height: 280px"
+                                placeholder="Quiero conocer más del servicio de" required></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-outline-light">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col text-center">
+            <a href="https://api.whatsapp.com/send?phone=+5493493668635" target="_blank">
+                <i class="bi-whatsapp btn fs-2" rel="noopener noreferrer"></i>
+            </a>
+            <span></span>
+            <a href="https://www.facebook.com/Vision-Evaluaciones-Deportivas-102922982241002/" target="_blank"
+                rel="noopener noreferrer">
+                <i class="btn bi-facebook fs-2"></i>
+            </a>
+            <a href="https://www.instagram.com/vision.evaluaciones.deportivas/" target="_blank"
+                rel="noopener noreferrer">
+                <i class="btn bi-instagram fs-2"></i>
+            </a>
+        </div>
+
+
+
+        <div class="col-12 fondoFinal">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <p></p>
+                        <h5 class="text-secondary fs-6 ">
+                            Vision Evaluaciones Contactos: <br>
+                            Email: visionevaluaciones@gmail.com <br>
+                            2022 Vision Evaluaciones deportivas - Todos los derechos reservados <br><br>
+                            Desarrolado por: Eliana Ramos (Diseño UX/UI), Fabían Martínez y Marcelo Luis Moreno
+                            (Desarrollo Web) <br><br>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin Seccion Footer -->
+
+    <!-- Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>

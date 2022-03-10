@@ -1,0 +1,28 @@
+// Seccion Nosotros
+
+.estasListo {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.tituloNosotros {
+    padding: 20px;
+    font-style: normal;
+    font-weight: bold;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+
+.fondoNosotros {
+    background: black;
+    background: url("../../img/imagen-sobre-nosotros-WEB.png");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondoSobreNosotros{
+    background-color: black;
+    opacity: .5;
+}

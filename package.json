@@ -1,0 +1,19 @@
+{
+  "name": "vision",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Marcelo Luis Moreno</h1> <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloLuisMoreno/VisionEvaluacionesDeportivas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarceloLuisMoreno/VisionEvaluacionesDeportivas/issues"
+  },
+  "homepage": "https://github.com/MarceloLuisMoreno/VisionEvaluacionesDeportivas#readme"
+}

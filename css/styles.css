@@ -1,0 +1,201 @@
+/* Sass */
+* {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-text-size-adjust: 100%;
+}
+
+.principal {
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.head {
+  background: white;
+}
+
+.logo {
+  position: fixed;
+  left: 45px;
+  top: 10px;
+  z-index: 100;
+  max-width: 140px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Barra Nav */
+.fondoNav {
+  background-color: #03071E;
+}
+
+.style-nav {
+  z-index: 100;
+  background-color: #03071E;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 35px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 33px;
+  z-index: 100;
+}
+
+.cardHeader {
+  z-index: 10;
+  background: #f48c06;
+  max-width: 846px;
+  margin: auto;
+}
+
+.nosotros {
+  max-width: 320px;
+  background-image: url("../../img/nosotros.png");
+}
+
+.servicios {
+  max-width: 320px;
+  background-image: url("../../img/servicios.png");
+}
+
+.contact {
+  max-width: 320px;
+  background-image: url("../../img/contact.png");
+}
+
+.textosVarios {
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+}
+
+.social-logo {
+  fill: #FFBA08;
+}
+.social-logo :hover {
+  fill: #F48C06;
+}
+
+.header-links a {
+  color: #FFBA08;
+  text-decoration: none;
+}
+.header-links a :hover {
+  background-color: red;
+  color: white;
+}
+
+.estasListo {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.tituloNosotros {
+  padding: 20px;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.fondoNosotros {
+  background: black;
+  background: url("../../img/imagen-sobre-nosotros-WEB.png");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fondoSobreNosotros {
+  background-color: black;
+  opacity: 0.5;
+}
+
+/* Seccion Videoclips */
+.tituloServicios {
+  padding: 20px;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: center;
+  color: black;
+}
+
+.fondoServicios {
+  background: white;
+}
+
+.tituloServicio {
+  color: black;
+}
+
+.sizeVideo {
+  width: 150%;
+  max-width: 847px;
+  z-index: 5;
+}
+
+/* Footer */
+.tituloContacto {
+  font-style: normal;
+  font-weight: bold;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.fondoContacto {
+  background: url("../../img/imagen-contacto-WEB.png");
+}
+
+.fondoFinal {
+  background-color: #03071E;
+}
+
+.contactos {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.fondoError404 {
+  background-image: url("../../img/imagen-pag404.png");
+}
+
+.fontError404 {
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+.margenMenuError {
+  margin-top: 8rem;
+}
+
+.fondoGracias {
+  background-color: white;
+}
+
+.sizeGracias {
+  width: 55%;
+  max-width: 1000px;
+}
+
+/*# sourceMappingURL=styles.css.map */
