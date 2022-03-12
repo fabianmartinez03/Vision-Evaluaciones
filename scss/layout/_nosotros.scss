@@ -22,7 +22,19 @@
     background-repeat: no-repeat;
 }
 
+.div-sobre-nosotros{
+    height: 100%;
+}
+
 .fondoSobreNosotros{
     background-color: black;
     opacity: .5;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.textBold{
+    color: #f48c06;
+    font-weight: bold;
 }

@@ -19,5 +19,13 @@ $breakpoint-md: 1024px;
 $breakpoint-lg: 1361px;
 
 // variables tamaño de títulos
-$sizeTit: 4rem
+$sizeTit: 4rem;
+
+// Cambio de color de la navbar
+$navColor: #FAA307;
+$navbar-dark-color:                 rgba($navColor, .55);
+$navbar-dark-hover-color:           rgba($navColor, .75);
+$navbar-dark-active-color:          $navColor;
+$navbar-dark-disabled-color:        rgba($navColor, .25);
+$navbar-dark-toggler-border-color:  rgba($navColor, .1);
 

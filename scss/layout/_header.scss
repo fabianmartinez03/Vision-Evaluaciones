@@ -75,8 +75,7 @@
 }
 
 .textosVarios{
-    background-color: black;
-    opacity: .5;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -84,6 +83,11 @@
     fill: #FFBA08 ;
     :hover{
         fill: #F48C06;
+    }
+}
+@media (max-width: 991px) {
+    .social-logo{ 
+      display: none;
     }
 }
 
